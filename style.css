@@ -1,0 +1,148 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.landing{
+    width: 100%;
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 60vh;
+}
+.landing-carnes{
+    background-image: url("./img/Carnes\ cortadas.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -600px;
+    width: 100%;
+    height: 70vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+#fondoPizza {
+    position: absolute;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    z-index: -1;
+    background-repeat: no-repeat;
+  }
+.contenedor{
+    max-width: 70%;
+    margin: auto;
+}
+#barbacoas{
+    background-image: url("https://img.freepik.com/foto-gratis/cultivo-mano-derramando-especias-sobre-pizza_23-2147749522.jpg?t=st=1718712648~exp=1718716248~hmac=e576010af449ac000c9858fce5c98dcbb26f9b48fd4fa49468f67dcc45ff118c&w=1060");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-primary{
+    background-color: rgb(206, 0, 0);
+}
+.text-primary{
+    color: rgb(206, 0, 0);
+}
+.btn-primary{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(206, 0, 0);
+    border-radius: 5px;
+    transition: .3s;
+}
+.btn-primary:hover{
+    background-color: rgb(131, 0, 0);
+}
+.btn-secondary{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(206, 0, 0);
+    border-radius: 5px;
+    transition: .3s;
+
+}
+.btn-secondary:hover{
+    background-color: rgb(231, 231, 231);
+}
+.hover-primary:hover{
+    color: rgb(206, 0, 0);
+}
+h3, h4{
+    font-weight: bolder !important;
+    padding-top: 20px;
+}
+
+/* FONTS */
+
+.font-title{
+    font-family: "Rosarivo", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.font-text{
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+.font-text-bolder{
+    font-family: "Rokkitt", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.text-shadow-black{
+    text-shadow: 1px 1px 1px black;
+}
+.text-shadow-black-xl{
+    text-shadow: 3px 3px 3px black;
+}
+
+  
+
+/*  */
+
+@media (max-width: 750px) {
+    .contenedor{
+        max-width: 85%;
+    }
+    .landing{
+        height: 60vh;
+    }
+    #fondoPizza{
+        height: 60vh !important;
+    }
+    #barbacoas{
+        background-position: -500px;
+    }
+    .d-none{
+        display: none;
+    }
+    .map{
+        width: 100%;
+    }
+}
